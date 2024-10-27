@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1000px) {
+    #cac,#cac1,#cac11{
+        flex-direction: column;
+    }
+    #img1,#img11,#img111{
+      margin: 10px 10px;
+    }
+    #img2,#img22,#img222{ 
+      margin: 10px 10px;
+    }
+  }
+#caco{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+  
+}
+#imega{
+  margin-top: 25px;
+}
+@media  screen and (max-width: 768px){
+  #caco{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  };
+}
